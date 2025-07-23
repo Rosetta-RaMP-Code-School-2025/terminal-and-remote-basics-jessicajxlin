@@ -207,6 +207,18 @@ You're from Canada — cool!
 
 Take a screenshot of your terminal showing the program running successfully, and displaying the expected outcome. Upload the screenshot in your github repo.
 
+```
+#!/bin/bash
+echo "What's your name?"
+read entered_name
+echo "Hello, $entered_name."
+if [ $1 == "USA" ]; then
+  echo "Welcome, fellow American"
+else
+  echo "You're from $1!"
+fi
+```
+
 ---
 
 #### 8. **Introduction to HPC and SLURM**
