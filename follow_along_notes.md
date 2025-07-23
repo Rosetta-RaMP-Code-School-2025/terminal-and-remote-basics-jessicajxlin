@@ -92,6 +92,15 @@
 6. Add another snack to the same file (on a new line)
 7. Count how many lines (snacks) are in the file
 
+```
+mkdir snacks
+cd snacks
+nano favorites.txt
+cat favorites.txt
+nano favorites.txt
+wc -l favorites.txt
+```
+
 Take a screenshot of the terminal output after typing the command for each step, or fill in the commands under each step in the above. Upload the screenshot in your github repo.
 
 ---
